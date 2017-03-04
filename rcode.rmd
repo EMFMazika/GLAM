@@ -1,0 +1,13 @@
+# my script
+
+Here is the linear model:
+
+```{r}
+x <- 1:10
+y <- rnorm(10)
+plot(x,y)
+fit <- lm(x ~ y)
+
+```
+
+
